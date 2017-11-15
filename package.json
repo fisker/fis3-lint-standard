@@ -1,0 +1,38 @@
+{
+  "name": "fis3-lint-standard",
+  "version": "1.0.1",
+  "description": "a js linter plugin of fis3 based on standard",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fisker/fis3-lint-standard.git"
+  },
+  "keywords": [
+    "standard",
+    "lint",
+    "linter",
+    "html",
+    "fis3-lint-standard",
+    "fis",
+    "fis3"
+  ],
+  "author": "fisker Cheung <lionkay@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "^4.11.0",
+    "standard": "^10.0.3"
+  },
+  "bugs": {
+    "url": "https://github.com/fisker/fis3-lint-standard/issues"
+  },
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "node test.js",
+    "release": "npm --registry=https://registry.npmjs.org/ publish"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js"
+  ]
+}
